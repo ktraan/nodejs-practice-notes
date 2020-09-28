@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-practice-notes",
+  "version": "1.0.0",
+  "description": "- The js folder will contain all of the notes and examples I have learned",
+  "main": "./js/app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktraan/nodejs-practice-notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktraan/nodejs-practice-notes/issues"
+  },
+  "homepage": "https://github.com/ktraan/nodejs-practice-notes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4"
+  }
+}
