@@ -11,4 +11,8 @@ router.get("/", (req, res) => {
 
 // Delete Posts
 
+async function loadPostsCollection() {
+  const client = await mongodb.MongoClient.connect('mongodb+srv://user:<password>@cluster0.60oaz.mongodb.net/<dbname>?retryWrites=true&w=majority')
+}
+
 module.exports = router;

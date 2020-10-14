@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5f8649554fc22e0917558681
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Turtle",
+    "subscribedToChannel": "Turtle Vids"
+}
+
+###
+
+PATCH http://localhost:3000/subscribers/5f8648b7f2c2ec0558b16567
+Content-Type: application/json
+
+{
+    "name": "Turtle 2.0"
+}
+
+
+
+###
+DELETE http://localhost:3000/subscribers/5f862be1afa358ea4cb62aaf
